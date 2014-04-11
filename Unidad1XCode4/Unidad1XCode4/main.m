@@ -41,13 +41,13 @@ int main(int argc, char * argv[]){
     Pixel *pixel = [[Pixel alloc] init];
     [pixel situarEnOrigen];
     
-    NSLog(@"X: %d, Y: %d",[pixel posX],[pixel posY]);
+    NSLog(@"X: %d, Y: %d",[pixel x],[pixel y]);
     [pixel moverHorizontalmente:30];
-    NSLog(@"X: %d, Y: %d",[pixel posX],[pixel posY]);
+    NSLog(@"X: %d, Y: %d",[pixel x],[pixel y]);
     [pixel moverHorizontalmente:10 yVerticalmente:200];
-    NSLog(@"X: %d, Y: %d",[pixel posX],[pixel posY]);
+    NSLog(@"X: %d, Y: %d",[pixel x],[pixel y]);
     [pixel moverHorizontalmente:10 yVerticalmente:200];
-    NSLog(@"X: %d, Y: %d",[pixel posX],[pixel posY]);
+    NSLog(@"X: %d, Y: %d",[pixel x],[pixel y]);
     
     if ([pixel estaFueraDeLosLimites]){
         NSLog(@"Está fuera de los limites ese pixel");
@@ -66,7 +66,7 @@ int main(int argc, char * argv[]){
     [pixelInv situarEnOrigenInvertido];
     //En las últimas versiones de XCode han modificado cómo se comporta el compilador respecto a ese aviso, pasando a ser un error. En realidad es mejor, pues así evita que se pueda llamar a un método que no existe. Tendría que asignar dicho pixel a una referencia PixelInvertido para que no le dé el error.
     
-    NSLog(@"X: %d, Y: %d",[pixel posX],[pixel posY]);
+    NSLog(@"X: %d, Y: %d",[pixel x],[pixel y]);
     //solo version 4 XCode
     [pixelInv release];
     
@@ -82,6 +82,10 @@ int main(int argc, char * argv[]){
     printf("Instancias de la clase: %i\n", [Clase initCount]);
     
     @autoreleasepool {
+        //Pixel *pixelA = [[Pixel alloc]init];
+        //[pixelA x:30];
+         //pixelA.x=30;
+        //[pixelA release];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
