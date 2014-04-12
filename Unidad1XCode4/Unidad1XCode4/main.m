@@ -56,7 +56,7 @@ int main(int argc, char * argv[]){
         NSLog(@"El pixel esta dentro de los límites");
     }
     //solo version 4 XCode
-    [pixel release];
+    //[pixel release];
     
     // Seguramente esta ejecutando la aplicación usando ARC. ARC es una forma de gestión automática de la memoria (viene explicado más adelante en la documentación), donde no tiene cabida la llamada a release (de ahí el error). Si no tiene acceso a una versión de XCode más antigua no podrá probar aquello de release, autorelease... etc. Está bien que lo conozca, pues por debajo Objective-C está utilizando eso, pero en las últimas versiones de XCode por defecto todo el código es con ARC.
     
@@ -80,6 +80,14 @@ int main(int argc, char * argv[]){
     Clase *c3 = [[Clase alloc]init];
     
     printf("Instancias de la clase: %i\n", [Clase initCount]);
+    
+    //*********************************************************************ejemplo de mutable
+    NSMutableString *mutable = [NSMutableString string];
+    [mutable appendString:@"Hola"];
+    [mutable appendFormat:@", mi numero favorito es el: %d", [pixel leePosY]];
+    NSLog(@"%@", mutable);
+    [pixel autorelease];
+
     
     @autoreleasepool {
         //Pixel *pixelA = [[Pixel alloc]init];
