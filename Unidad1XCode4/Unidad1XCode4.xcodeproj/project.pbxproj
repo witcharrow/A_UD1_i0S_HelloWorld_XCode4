@@ -87,12 +87,6 @@
 		E0EB034B18F8952D003F8D28 /* Unidad1XCode4 */ = {
 			isa = PBXGroup;
 			children = (
-				E000A66C18F940EF00176F78 /* Clase.h */,
-				E000A66D18F940EF00176F78 /* Clase.m */,
-				E000A66E18F940EF00176F78 /* Pixel.h */,
-				E000A66F18F940EF00176F78 /* Pixel.m */,
-				E000A67018F940EF00176F78 /* PixelInvertido.h */,
-				E000A67118F940EF00176F78 /* PixelInvertido.m */,
 				E0EB035418F8952D003F8D28 /* AppDelegate.h */,
 				E0EB035518F8952D003F8D28 /* AppDelegate.m */,
 				E0EB034C18F8952D003F8D28 /* Supporting Files */,
@@ -103,6 +97,12 @@
 		E0EB034C18F8952D003F8D28 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E000A66C18F940EF00176F78 /* Clase.h */,
+				E000A66D18F940EF00176F78 /* Clase.m */,
+				E000A66E18F940EF00176F78 /* Pixel.h */,
+				E000A66F18F940EF00176F78 /* Pixel.m */,
+				E000A67018F940EF00176F78 /* PixelInvertido.h */,
+				E000A67118F940EF00176F78 /* PixelInvertido.m */,
 				E0EB034D18F8952D003F8D28 /* Unidad1XCode4-Info.plist */,
 				E0EB034E18F8952D003F8D28 /* InfoPlist.strings */,
 				E0EB035118F8952D003F8D28 /* main.m */,
