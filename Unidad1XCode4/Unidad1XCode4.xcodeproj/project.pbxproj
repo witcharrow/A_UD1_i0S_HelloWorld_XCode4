@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E000A67218F940EF00176F78 /* Clase.m in Sources */ = {isa = PBXBuildFile; fileRef = E000A66D18F940EF00176F78 /* Clase.m */; };
+		E000A67318F940EF00176F78 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = E000A66F18F940EF00176F78 /* Pixel.m */; };
+		E000A67418F940EF00176F78 /* PixelInvertido.m in Sources */ = {isa = PBXBuildFile; fileRef = E000A67118F940EF00176F78 /* PixelInvertido.m */; };
 		E0EB034618F8952D003F8D28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EB034518F8952D003F8D28 /* UIKit.framework */; };
 		E0EB034818F8952D003F8D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EB034718F8952D003F8D28 /* Foundation.framework */; };
 		E0EB034A18F8952D003F8D28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EB034918F8952D003F8D28 /* CoreGraphics.framework */; };
@@ -16,12 +19,15 @@
 		E0EB035818F8952D003F8D28 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EB035718F8952D003F8D28 /* Default.png */; };
 		E0EB035A18F8952D003F8D28 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EB035918F8952D003F8D28 /* Default@2x.png */; };
 		E0EB035C18F8952D003F8D28 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EB035B18F8952D003F8D28 /* Default-568h@2x.png */; };
-		E0EB036918F895B3003F8D28 /* Clase.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EB036518F895B3003F8D28 /* Clase.m */; };
-		E0EB036A18F895B3003F8D28 /* PixelInvertido.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EB036718F895B3003F8D28 /* PixelInvertido.m */; };
-		E0EB036D18F895C9003F8D28 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EB036C18F895C9003F8D28 /* Pixel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E000A66C18F940EF00176F78 /* Clase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clase.h; path = ../../Clase.h; sourceTree = "<group>"; };
+		E000A66D18F940EF00176F78 /* Clase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Clase.m; path = ../../Clase.m; sourceTree = "<group>"; };
+		E000A66E18F940EF00176F78 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pixel.h; path = ../../Pixel.h; sourceTree = "<group>"; };
+		E000A66F18F940EF00176F78 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pixel.m; path = ../../Pixel.m; sourceTree = "<group>"; };
+		E000A67018F940EF00176F78 /* PixelInvertido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PixelInvertido.h; path = ../../PixelInvertido.h; sourceTree = "<group>"; };
+		E000A67118F940EF00176F78 /* PixelInvertido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PixelInvertido.m; path = ../../PixelInvertido.m; sourceTree = "<group>"; };
 		E0EB034218F8952D003F8D28 /* Unidad1XCode4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unidad1XCode4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EB034518F8952D003F8D28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0EB034718F8952D003F8D28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,12 +41,6 @@
 		E0EB035718F8952D003F8D28 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E0EB035918F8952D003F8D28 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E0EB035B18F8952D003F8D28 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E0EB036418F895B3003F8D28 /* Clase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clase.h; path = ../../../Prueba/Prueba/Clase.h; sourceTree = "<group>"; };
-		E0EB036518F895B3003F8D28 /* Clase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Clase.m; path = ../../../Prueba/Prueba/Clase.m; sourceTree = "<group>"; };
-		E0EB036618F895B3003F8D28 /* PixelInvertido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PixelInvertido.h; path = ../../../Prueba/Prueba/PixelInvertido.h; sourceTree = "<group>"; };
-		E0EB036718F895B3003F8D28 /* PixelInvertido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PixelInvertido.m; path = ../../../Prueba/Prueba/PixelInvertido.m; sourceTree = "<group>"; };
-		E0EB036B18F895C9003F8D28 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pixel.h; path = ../../../Prueba/Pixel.h; sourceTree = "<group>"; };
-		E0EB036C18F895C9003F8D28 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pixel.m; path = ../../../Prueba/Pixel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,12 @@
 		E0EB034B18F8952D003F8D28 /* Unidad1XCode4 */ = {
 			isa = PBXGroup;
 			children = (
+				E000A66C18F940EF00176F78 /* Clase.h */,
+				E000A66D18F940EF00176F78 /* Clase.m */,
+				E000A66E18F940EF00176F78 /* Pixel.h */,
+				E000A66F18F940EF00176F78 /* Pixel.m */,
+				E000A67018F940EF00176F78 /* PixelInvertido.h */,
+				E000A67118F940EF00176F78 /* PixelInvertido.m */,
 				E0EB035418F8952D003F8D28 /* AppDelegate.h */,
 				E0EB035518F8952D003F8D28 /* AppDelegate.m */,
 				E0EB034C18F8952D003F8D28 /* Supporting Files */,
@@ -97,12 +103,6 @@
 		E0EB034C18F8952D003F8D28 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E0EB036B18F895C9003F8D28 /* Pixel.h */,
-				E0EB036C18F895C9003F8D28 /* Pixel.m */,
-				E0EB036418F895B3003F8D28 /* Clase.h */,
-				E0EB036518F895B3003F8D28 /* Clase.m */,
-				E0EB036618F895B3003F8D28 /* PixelInvertido.h */,
-				E0EB036718F895B3003F8D28 /* PixelInvertido.m */,
 				E0EB034D18F8952D003F8D28 /* Unidad1XCode4-Info.plist */,
 				E0EB034E18F8952D003F8D28 /* InfoPlist.strings */,
 				E0EB035118F8952D003F8D28 /* main.m */,
@@ -181,9 +181,9 @@
 			files = (
 				E0EB035218F8952D003F8D28 /* main.m in Sources */,
 				E0EB035618F8952D003F8D28 /* AppDelegate.m in Sources */,
-				E0EB036918F895B3003F8D28 /* Clase.m in Sources */,
-				E0EB036A18F895B3003F8D28 /* PixelInvertido.m in Sources */,
-				E0EB036D18F895C9003F8D28 /* Pixel.m in Sources */,
+				E000A67218F940EF00176F78 /* Clase.m in Sources */,
+				E000A67318F940EF00176F78 /* Pixel.m in Sources */,
+				E000A67418F940EF00176F78 /* PixelInvertido.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
